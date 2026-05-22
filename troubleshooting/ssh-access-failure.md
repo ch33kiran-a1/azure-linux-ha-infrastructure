@@ -55,10 +55,11 @@ sudo journalctl -xe
 
 ## Root Cause Identified
 
-SSH access failure caused by:
-- NSG rule misconfiguration
-- Public IP removal
+Multiple SSH failure scenarios were simulated and resolved including:
+- NSG inbound rule misconfiguration
+- Public IP dissociation
 - Incorrect SSH authentication settings
+- SSH service interruption
 
 ---
 
@@ -76,9 +77,10 @@ sudo systemctl restart ssh
 
 ## Validation
 
-SSH access restored successfully.
+Validated successful SSH connectivity after fixes.
 
 Verified:
-- SSH login
-- VM network connectivity
+- Remote SSH login
+- VM network reachability
+- SSH service status
 - Web server accessibility
