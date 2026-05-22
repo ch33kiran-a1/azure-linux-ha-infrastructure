@@ -85,3 +85,12 @@ Verified:
 - HTTPS accessibility restored
 - Load balancer traffic routing functioning correctly
 - Website accessible from browser
+
+---
+
+ ## Failure Simulation Evidence
+
+Nginx service was intentionally stopped on vm-web-02 to validate Azure Load Balancer health probe behavior and backend failover handling.
+
+Related screenshot:
+../screenshots/azure-health-probe-failure.png
