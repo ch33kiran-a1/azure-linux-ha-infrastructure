@@ -134,4 +134,4 @@ https://azure.kirantechlab.online
 ![NSG Rules](screenshots/azure-nsg-inbound-rules.png)
 
 ### Health Probes
-![Health Probes](screenshots/Load%20Balancer%20health%20probe.png)
+![Health Probes](screenshots/azure-health-probes.png)
