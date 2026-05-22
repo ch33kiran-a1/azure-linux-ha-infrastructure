@@ -116,3 +116,22 @@ https://azure.kirantechlab.online
 - Infrastructure Monitoring
 - Cloud VM Administration
 - Production-style Incident Troubleshooting
+
+  ---
+
+## Infrastructure Screenshots
+
+### Azure VM Overview
+![Azure VM Overview](screenshots/azure-vm-overview.png)
+
+### Azure Load Balancer
+![Azure Load Balancer](screenshots/azure-load-balancer-overview.png)
+
+### Azure Backend Pool
+![Azure Backend Pool](screenshots/azure-backend-pool.png)
+
+### NSG Inbound Rules
+![NSG Rules](screenshots/azure-nsg-inbound-rules.png)
+
+### Health Probes
+![Health Probes](screenshots/Load%20Balancer%20health%20probe.png)
